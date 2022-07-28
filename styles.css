@@ -38,6 +38,7 @@
 .subtitulopr{
     padding-top: 5px;
 }
+
 .productos{
     color:rgba(145, 71, 123, 0.39);
     text-align: center;
@@ -67,42 +68,130 @@
     color:#333;
 }
 
-.carousel-inner{
-    color: aqua;
+.tproductos{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgba(145, 71, 123, 0.39);
+    padding: 20px 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgba(255, 239, 213, 0.541);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 0.1px rgba(48, 36, 116, 0.555)
 }
 
-footer{
-    background-color: rgba(128, 72, 111, 0.342);
-text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 10px;
-padding-top: 1px;
-margin-top: 8px;
-color:rgba(54, 108, 155, 0.753);
-height: 70px;
+.content{
+background-color: rgba(151, 151, 133, 0.123);
+padding: 40px;
+width: 100%;
+color: rgba(145, 71, 123, 0.39);
 }
 
-.cierre{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 16px;
+.item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 60px;
+    margin: 40px;
+    height: 250px;
+    border: 1.1px solid rgba(145, 71, 123, 0.39);
+    text-align: center;
+    border-radius: 6.5px;
 }
 
-.social1{
-    color: rgba(39, 56, 211, 0.685);
-    margin: 5px 5px;
-    padding: 2.5px 2.5px;
+.item:hover{
+    transform: scale(01.1);
+    transition:all 1.9s;
+    box-shadow: 2px 5px 5px 5px  rgba(128, 128, 128, 0.397);
 }
-.social2{
-    color: rgba(167, 66, 180, 0.877);
-    margin: 5px 5px;
-    padding: 2.5px 2.5px;
+
+a{
+    text-decoration: none;
+    text-shadow: 20px;
+    color:rgba(145, 71, 123, 0.39);
+    font-size: 24px;
 }
-.social3{
-    color: green;
-    margin: 5px 5px;
-    padding: 2.5px 2.5px;
+
+.item1{
+    background-image: url(/images/Foto\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+    background-image: url(/images/Foto2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3{
+    background-image: url(/images/Foto\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    background-image: url(/images/Foto\ 4.jpg);
+        background-size: cover;
+    background-position: center;
+}
+
+.item5{
+    background-image: url(/images/foto\ 7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background-image: url(/images/foto\ 8.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+
+@media only screen and (max-width:370px)
+{
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:750px)
+{
+    .content{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:950px)
+{
+    .content{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.tnosotros{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgba(145, 71, 123, 0.39);
+    padding: 20px 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgba(255, 239, 213, 0.541);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 0.1px rgba(48, 36, 116, 0.555)
+}
+
+.card{
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 h4{
@@ -134,8 +223,43 @@ h4{
     font-size: 17.4px;
 }
 
-
-.carousel-item{
-    justify-content: center;
+footer{
+    background-color: rgba(128, 72, 111, 0.342);
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 10px;
+padding-top: 1px;
+margin-top: 8px;
+color:rgba(54, 108, 155, 0.753);
+height: 70px;
 }
+
+.cierre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+.social1{
+    color: rgba(39, 56, 211, 0.685);
+    margin: 5px 5px;
+    padding: 2.5px 2.5px;
+}
+.social2{
+    color: rgba(167, 66, 180, 0.877);
+    margin: 5px 5px;
+    padding: 2.5px 2.5px;
+}
+.social3{
+    color: green;
+    margin: 5px 5px;
+    padding: 2.5px 2.5px;
+}
+
+
+
+
+
 
